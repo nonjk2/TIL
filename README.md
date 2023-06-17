@@ -1,3 +1,5 @@
+<div style="max-width:600px; margin:0 auto">
+
 ## TIL (Today I **Learned**)📖
 
 > 배운 것들의 저장소입니다😃.
@@ -15,3 +17,5 @@
 
 - [OSI7계층](네트워크/OSI7%EA%B3%84%EC%B8%B5/README.md#)
 - [DNS](네트워크/DNS/README.md#DNS)
+
+</div>

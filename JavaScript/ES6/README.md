@@ -1,3 +1,5 @@
+<div style="max-width:800px; margin:0 auto">
+
 > ECMAScript 6 (ES6)는 JavaScript의 버전 중 하나로, 2015년에 발표가 되었다.. ES6는 이전 버전인 ES5에서 새로운 문법과 기능을 도입하여 JavaScript 개발자들이 보다 쉽고 효율적으로 코드를 작성할 수 있도록 개선.
 
 ## 목차
@@ -174,3 +176,5 @@ func(1, 2, 3, 4, 5, 6, 7); // 3 4 5 6 7
 `string text 
 string text line2``string text ${value} text`;
 ```
+
+</div>

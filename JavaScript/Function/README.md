@@ -1,3 +1,5 @@
+<div style="max-width:800px; margin:0 auto">
+
 # **일급 객체로서의 함수**
 
 ---
@@ -11,6 +13,7 @@
 ### 변수를 함수를 할당
 
 - 함수는 변수에 할당할 수 있다. 함수는 값으로 함수는 값으로 취급되기 때문에, 다른 변수와 마찬가지로 변수에 할당할 수 있다. 변수에 할당된 함수는 나중에 사용할 수 있다.
+
   ```jsx
   const sayHello = function () {
     console.log("Hello!");
@@ -22,7 +25,9 @@
 ### 함수를 인자로 다른 함수에 전달
 
 - 함수는 다른 함수에 인자로 전달될 수 있다. 함수가 값으로 취급되기 때문에, 다른 함수의 인자로 전달할 수 있다. 이것은 **콜백(callback)**이나 **고차 함수(higher-order function)**를 작성하는 데 사용
+
   - 고차 함수란 함수를 인자로 받거나 함수를 출력으로 반환하는 함수를 말한다. 함수를 다루는 함수인셈 정리하면 콜백함수는 고차함수라고도 할 수 있다.
+
   ```jsx
   function callFunction(func) {
     func();
@@ -197,3 +202,5 @@ for (const value of mySet.values()) {
 
 console.log(mySet.size); // 3 출력 크기 확인
 ```
+
+</div>

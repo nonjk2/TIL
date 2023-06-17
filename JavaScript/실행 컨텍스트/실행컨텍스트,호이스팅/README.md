@@ -1,3 +1,5 @@
+<div style="max-width:800px; margin:0 auto; line-height:26px">
+
 # 실행 컨텍스트
 
 ---
@@ -267,3 +269,4 @@ console.log(innerVar); // Uncaught ReferenceError: innerVar is not defined
   -JavaScript의 스코프 체인은 각 실행 컨텍스트의 LexicalEnvironment에 있는 `outerEnvironmentReference`에 의해 형성됩니다
 
 </aside>
+</div>

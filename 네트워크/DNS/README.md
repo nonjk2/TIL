@@ -1,3 +1,5 @@
+<div style="max-width:800px; margin:0 auto">
+
 # DNS
 
 ---
@@ -75,3 +77,5 @@ DNS 조회의 8단계를 거쳐 example.com의 IP 주소가 반환되면, 이제
 
 - Nameserver는 무조건 공인된 애들한테만 -> 악의적인 사용자가 있기때문
 - sub domain 활용 잘하면 도메인 값 아낄수있음
+
+</div>

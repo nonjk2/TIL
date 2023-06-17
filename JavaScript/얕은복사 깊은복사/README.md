@@ -1,3 +1,4 @@
+<div style="max-width:750px; margin:0 auto; line-height: 27px">
 # 얕은복사와 깊은복사
 
 - 불변 객체의 정의
