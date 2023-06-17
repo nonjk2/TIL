@@ -1,4 +1,4 @@
-<div style="max-width:300px; margin:0 auto">
+<div style="max-width:800px; margin:0 100px">
 
 ## TIL (Today I **Learned**)📖
 
