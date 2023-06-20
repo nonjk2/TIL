@@ -1,4 +1,4 @@
-<div style="max-width:800px; margin:0 auto; line-height:26px">
+<div style="max-width:800px; margin:0 auto; line-height:28px">
 
 # 실행 컨텍스트
 
