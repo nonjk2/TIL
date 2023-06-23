@@ -10,7 +10,7 @@ Github Actions / Workflow 작성
 2-2. Commit 메세지 보고 SEMVer => NPM Update
 2-3. Commit 메세지 보고 SEMVer => Release 문서 생성
 2-4. Storybook Page 배포
-
+https://thecatapi.com/
 최적화
 CJS, ESM 어떤 빌드 방법을 가질지? 최적화
 
