@@ -341,4 +341,50 @@ export default store;
 </Provider>,
 ```
 
-음 여기까지 구조를 알아봤는데 다음 포스팅은 직접 사용해보자
+## 사용방법
+
+지금까지 구조를 익혔으니 사용 방법을 코드 한번에 사용방법을 알아보자
+
+```tsx
+const BlogApp = () => {
+  const dispatch = useDispatch();
+  const posts = useSelector((state) =>
+    state.posts.allIds.map((id) => state.posts.byId[id])
+  );
+
+  const [newPost, setNewPost] = useState<post>({
+    id: "",
+    author: "",
+    body: "",
+  });
+
+  const handleAddPost = () => {
+    dispatch(addPost(newPost));
+    setNewPost({ id: "", author: "", body: "" });
+  };
+
+  return (
+    <div>
+      <input
+        placeholder="Post ID"
+        value={newPost.id}
+        onChange={(e) => setNewPost({ ...newPost, id: e.target.value })}
+      />
+      // 대충 Author , body Input
+      <button onClick={handleAddPost}>Add Post</button>
+      <ul>
+        {posts.map((post) => (
+          <li key={post.id}>
+            <h2>{post.author}</h2>
+            <p>{post.body}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default BlogApp;
+```
+
+음 여기까지 바닐라 리덕스의 구조를 알아봤는데 다음 포스팅은 직접 리덕스 툴킷 알아보고 사용해보자
