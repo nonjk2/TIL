@@ -27,4 +27,7 @@
 - [React-route-dom](react/React-route-dom/README.md)
 - [useState](react/useState/README.md)
 - [ReactLifeCycle](react/ReactLifeCycle/README.md)
-</div>
+- [Redux](react/redux/README.md)
+  - [Redux용어정리](React/redux/redux%EC%96%B8%EC%96%B4/README.md)
+- [PageNation](react/Study//PageNation/README.md)
+  </div>
