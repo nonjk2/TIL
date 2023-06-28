@@ -38,3 +38,68 @@
 
 </div>
 </details>
+
+```js
+<html>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/jsx">
+
+      const app = document.getElementById("app")
+
+      function Header({ title }) {
+        return <h1>{title ? title : "Default title"}</h1>
+      }
+
+      function HomePage() {
+        const names = ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton"]
+
+        const [likes, setLikes] = React.useState(0)
+
+        function handleClick() {
+          setLikes(likes + 1)
+        }
+
+        return (
+          <div>
+            <Header title="Develop. Preview. Ship. 🚀" />
+            <ul>
+              {names.map((name) => (
+                <li key={name}>{name}</li>
+              ))}
+            </ul>
+
+            <button onClick={handleClick}>Like ({likes})</button>
+          </div>
+        )
+      }
+f
+      ReactDOM.render(<HomePage />, app)
+    </script>
+  </body>
+</html>
+```
+
+그냥 리액트의 모든것
+
+## 컴파일이란 무엇입니까?
+
+개발자는 JSX, TypeScript 및 최신 버전의 JavaScript와 같이 개발자에게 더 친숙한 언어로 코드를 작성합니다 . 이러한 언어는 개발자의 효율성과 자신감을 향상시키지만 브라우저에서 이해할 수 있으려면 먼저 JavaScript로 컴파일해야 합니다.
+
+![컴파일](img/compiling.png)
+
+컴파일이란 한 언어로 된 코드를 다른 언어 또는 해당 언어의 다른 버전으로 출력하는 프로세스를 말합니다.
+
+Next.js에서 컴파일은 개발 단계에서 코드를 편집할 때 발생하며 프로덕션을 위해 애플리케이션을 준비하는 빌드 단계의 일부로 발생합니다.
+
+## 번들링이란 무엇입니까?
+
+개발자는 응용 프로그램을 더 큰 응용 프로그램을 구축하는 데 사용할 수 있는 모듈, 구성 요소 및 기능으로 나눕니다. 이러한 내부 모듈과 외부 타사 패키지를 내보내고 가져오면 파일 종속성의 복잡한 웹이 생성됩니다.
+
+![번들링](img/bundling.png)
+번들링은 사용자가 웹 페이지를 방문할 때 파일에 대한 요청 수를 줄이기 위해 종속성 웹을 해결하고 파일(또는 모듈)을 브라우저에 최적화된 번들로 병합(또는 '패키징')하는 프로세스입니다.
