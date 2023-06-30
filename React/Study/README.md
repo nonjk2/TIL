@@ -70,3 +70,22 @@ npm dev
 npm storybook
 
 https://product.kyobobook.co.kr/detail/S000001810064
+
+<!-- React와 TypeScript 함께 사용하기: TypeScript는 JavaScript에 정적 타입을 추가하여 코드의 안정성을 높이고, 에디터의 지원을 받아 개발 생산성을 향상시킬 수 있는 스크립트 언어입니다. React 프로젝트에 TypeScript를 어떻게 적용하고 최적화하는지에 대해 설명해보세요.
+
+React에서의 Context API와 활용: React의 Context API는 컴포넌트 트리 안에서 전역적으로 사용할 수 있는 데이터를 관리하는 방법입니다. 이를 이용하여 어떻게 state 관리를 할 수 있는지, 어떻게 컴포넌트 간에 데이터를 공유할 수 있는지를 다루는 것이 좋습니다.
+
+React Hooks (useEffect, useReducer, useRef 등) 사용법과 패턴: useState 외에도 다양한 React Hooks가 있으며, 이러한 Hooks을 사용하면 함수형 컴포넌트에서 상태와 생명주기 등을 관리할 수 있습니다. 각각의 Hook이 어떤 목적으로 사용되며 어떻게 사용하는지에 대해 기술해보세요.
+
+React에서의 Error Boundary와 오류 처리: 어플리케이션에서 오류가 발생했을 때 어떻게 대응할 수 있는지, Error Boundary가 어떻게 동작하는지를 다루는 것이 좋습니다.
+
+React Testing Library를 이용한 테스트 작성: 테스트 주도 개발(TDD)은 훌륭한 개발 방법론 중 하나입니다. React Testing Library를 이용해 어떻게 컴포넌트를 테스트하는지, 테스트를 통해 어떤 이점을 얻을 수 있는지를 설명하는 것도 흥미롭습니다.
+
+React에서의 애니메이션 처리: React Transition Group이나 React Spring과 같은 라이브러리를 활용해서 애니메이션을 어떻게 구현하는지 설명해보세요. -->
+
+<!-- https://quick-search-widget.webflow.io/ -->
+<!-- https://wf-live-search.webflow.io/ -->
+
+https://autocompletejs.webflow.io/
+
+https://developers.kakao.com/docs/latest/ko/daum-search/dev-guide
