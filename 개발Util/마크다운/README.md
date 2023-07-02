@@ -46,7 +46,7 @@ Cmd+Shift+P를 눌러서 code block 검색후 사용하거나 -> 커맨드 설�
 
 ## 테이블(Table) 생성 (MarkDownPreView 확장)
 
-Cmd+Shift+P -> markdown preview enhanced : Inset Table 클릭
+Cmd+Shift+P -> markdown preview **enhanced** : Inset Table 클릭
 
 | 1   | 2   |
 | --- | --- |
