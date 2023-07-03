@@ -27,6 +27,7 @@
 - [React-route-dom](react/React-route-dom/README.md)
 - [useState](react/useState/README.md)
 - [ReactLifeCycle](react/ReactLifeCycle/README.md)
+  - [useEffect 의존성배열(깨달음)](react/useEffect/README.md)
 - [Redux](react/redux/README.md)
   - [Redux용어정리](react/redux/redux%EC%96%B8%EC%96%B4/README.md)
   - [ReduxToolkit](react/redux/redux-toolkit/README.md)
