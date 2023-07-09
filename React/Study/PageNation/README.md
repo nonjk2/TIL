@@ -64,8 +64,7 @@ const handleImageLoad = () => {
       </div>
     </Spinner>
   ) : (
-    cats &&
-    cats.map((e) => <CatListItem key={e.id} item={{ ...e, toggle: toggle }} />)
+    cats && cats.map((e) => <CatListItem key={e.id} item={{ ...e, toggle: toggle }} />)
   )}
 </CatListSection>
 ```
