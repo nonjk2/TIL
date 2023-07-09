@@ -25,20 +25,20 @@
 
 ## 리액트
 
-- [React-route-dom](react/React-route-dom/README.md)
-- [useState](react/useState/README.md)
-- [ReactLifeCycle](react/ReactLifeCycle/README.md)
-  - [useEffect 의존성배열(깨달음)](react/useEffect/README.md)
-- [Redux](react/redux/README.md)
-  - [Redux용어정리](react/redux/redux%EC%96%B8%EC%96%B4/README.md)
-  - [ReduxToolkit](react/redux/redux-toolkit/README.md)
-- [PageNation](react/Study/PageNation/README.md)
-- [검색창](react/Study/Search/README.md)
-- [인피니티스크롤](react/Study/InfinityScroll/README.md)
-- [컴포넌트 최적화](react/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%B5%9C%EC%A0%81%ED%99%94/README.md)
+- [React-route-dom](React/React-route-dom/README.md)
+- [useState](React/useState/README.md)
+- [ReactLifeCycle](React/ReactLifeCycle/README.md)
+  - [useEffect 의존성배열(깨달음)](React/useEffect/README.md)
+- [Redux](React/redux/README.md)
+  - [Redux용어정리](React/redux/redux%EC%96%B8%EC%96%B4/README.md)
+  - [ReduxToolkit](React/redux/redux-toolkit/README.md)
+- [PageNation](React/Study/PageNation/README.md)
+- [검색창](React/Study/Search/README.md)
+- [인피니티스크롤](React/Study/InfinityScroll/README.md)
+- [컴포넌트 최적화](React/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%B5%9C%EC%A0%81%ED%99%94/README.md)
 - [재사용 컴포넌트](React/재사용컴포넌트/README.md)
 - [react-query](React/React-query/README.md)
-- [useReducer 와 useContext](react/useContext와%20useReducer/README.md)
+- [useReducer 와 useContext](React/useContext와%20useReducer/README.md)
 
 ## util
 
