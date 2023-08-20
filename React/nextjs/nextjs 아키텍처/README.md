@@ -1,3 +1,8 @@
+- [Nextjs 구성](#nextjs-구성)
+  - [Routing](#routing)
+    - [app폴더 내부](#app폴더-내부)
+  - [Server Component](#server-component)
+
 # Nextjs 구성
 
 ## Routing
@@ -20,7 +25,7 @@ nextjs [공식문서 블로그](https://nextjs.org/blog/next-13-1#improved-stabi
 page폴더보다 퍼포먼스 지표가 더 높아진걸 볼수있다.
 <br>
 
-### 라우팅
+### app폴더 내부
 
 기본 적으로 app 라우팅 내부 파일들은 **서버 컴포넌트로 구성이된다** 즉 nodejs 환경으로 돌아간다는 뜻
 
