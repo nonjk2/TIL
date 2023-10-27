@@ -69,7 +69,7 @@
     <br>
 
 - `양방향 통신 (Bidirectional Communication)`: 연결이 설정된 후에는 클라이언트와 서버가 양방향으로 데이터를 주고받을 수 있습니다. 양측은 데이터를 프레임(frame) 단위로 전송하고, 상대방은 해당 프레임을 수신하여 처리합니다.
-- ![사진](./websocket/image/Websocket_connection.png)
+- ![사진](./image/Websocket_connection.png)
 
 - 정리
   1. 클라이언트는 웹소켓 엔드포인트로 HTTP 요청을 보냅니다.

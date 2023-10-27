@@ -48,4 +48,5 @@
 
 ## 내맘대로 배우기
 
-- [webSocket](내맘대로%20공부/websocket/README.md)
+- [WebSocket](내맘대로%20공부/websocket/README.md)
+- [Proxy](내맘대로%20공부/proxy/README.md)
