@@ -77,6 +77,7 @@ export default function Page() {
     //...
   );
 }
+ㅌ;
 ```
 
 - `width` - 1000 픽셀 `height` 760픽셀 을 설정합니다.
