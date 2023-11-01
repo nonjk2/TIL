@@ -58,3 +58,5 @@
 - [Proxy](내맘대로%20공부/proxy/README.md)
 - [Stack&Queue](내맘대로%20공부/stack&queue/README.md)
 - [ArrayList && LinkedList](내맘대로%20공부/ArrayList&LinkedList/README.md)
+- [HashMap](내맘대로%20공부/hash&hashmap/README.md)
+- [Sort](내맘대로%20공부/sort/README.md)
